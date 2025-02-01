@@ -7,8 +7,10 @@ function myFunction1() {
 function envoyerMessage() {
 	var nom = document.getElementById("nom").value;
 	var prenom = document.getElementById("prenom").value;
+	var mail = document.getElementById("mail").value;
+	var sujet = document.getElementById("sujet").value;
 	
-	if (nom === "" || prenom === "") {
+	if (nom === "" || prenom === "" || mail === "" || sujet === "") {
 		alert("Veuillez remplir tous les champs.");
 	}
 	else {
